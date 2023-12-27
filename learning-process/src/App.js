@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Family from './Components/separateCom1';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // we can keep the tag as non<> </> it just a container tag
+    <div>
+      <h1>Initial component App: Ram's family</h1>
+      <Family/>
     </div>
   );
 }

@@ -3,11 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import About from './Components/seperateCom3';
+
+//just to show we can create like this 
+function SampleCom(){
+  return(
+    <sample>
+      this components is a components 
+      that created inside the index.js file
+    </sample>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <SampleCom/>
     <App />
+    <About/>
   </React.StrictMode>
 );
 
