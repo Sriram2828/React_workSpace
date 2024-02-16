@@ -8,6 +8,21 @@
     gap: 20px;
 }
 
+.container button{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #5f06a2;
+    border-radius: 10px;
+    color: #ffffff;
+    transition: 0.5s;
+    border: none;
+}
+.container button:hover{
+    background-color: #a645ef;
+    font-size: 19px;
+}
+
 .accordian {
     width: 500px;
 }
