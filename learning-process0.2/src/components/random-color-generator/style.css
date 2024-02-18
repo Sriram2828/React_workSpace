@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+.btns{
+    padding-top: 30px;
+}
+
+button{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+ button:hover{
+    font-size: 20px;
+ }
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 60px;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 20px;
+}

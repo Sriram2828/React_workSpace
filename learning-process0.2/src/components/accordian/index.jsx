@@ -2,7 +2,7 @@ import { useState } from "react";
 import data from "./data";
 import "./style.css";
 
-// Creating the main project component
+// Creating the Accordian project component
 export default function Accordian(){
     // hook for detect the selected option
     const [selected, setSelected] = useState(null);
@@ -68,8 +68,8 @@ export default function Accordian(){
                                     if the multiselection option is enabled then the if '?' condition will work 
                                     else the else ':' condition will work
                                 */}
-                                {enableMultiSelection
-                                    ? multiSelection.indexOf(dataItem.id) !== -1 && (
+                                {
+                                    enableMultiSelection ? multiSelection.indexOf(dataItem.id) !== -1 && (
                                         <div className="acc-content ">{dataItem.answer}</div>
                                     ) : selected === dataItem.id && (
                                         <div className="acc-content ">{dataItem.answer}</div>
